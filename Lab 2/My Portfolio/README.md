@@ -46,7 +46,8 @@ You only need a modern web browser to view the site.
 
 **Harsh Dabas**
 
-* **GitHub:** [your-username](https://github.com/harsh3456d)
-* **Email:** [your.email@example.com](mailto:harshdabas1314@gmail.com)
+* **GitHub:** [Harsh3456D](https://github.com/harsh3456d)
+* **Email:** [harshdabas1314@gmail.com](mailto:harshdabas1314@gmail.com)
+
 
 Feel free to reach out if you have any questions or just want to connect!
