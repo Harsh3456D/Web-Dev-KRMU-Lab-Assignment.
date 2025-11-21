@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Dabas | Portfolio</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    
+    <div class="background-overlay">
+        <img src="background.jpg" alt="Background">
+    </div>
+
+    <header class="top-menu">
+        <div class="logo">Portfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h1>Hi, I am Harsh</h1>
+            <h2 class="highlight-text">Full Stack Developer</h2>
+            <p>Building modern web applications. Trying to learn the best of it through practice and determination.</p>
+        </div>
+        <div class="hero-image-container">
+            <img src="Harsh.jpeg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section id="about" class="container about-section">
+        <h2>About Me</h2>
+        <p>My name is Harsh Dabas, and I am currently learning web development and various other skills. I am passionate about creating efficient and visually appealing digital experiences.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="card"><h3>HTML</h3><p>Advanced</p></div>
+            <div class="card"><h3>CSS</h3><p>Advanced</p></div>
+            <div class="card"><h3>JavaScript</h3><p>Intermediate</p></div>
+            <div class="card"><h3>Python</h3><p>Advanced</p></div>
+            <div class="card"><h3>C++</h3><p>Intermediate</p></div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Lost and Found</h3>
+                <p>A platform to report lost items.</p>
+                <a class="button" href="https://github.com">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>ArbiterQ</h3>
+                <p>A query management system.</p>
+                <a class="button" href="https://github.com">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Prediction Models</h3>
+                <p>ML models for data analysis.</p>
+                <a class="button" href="https://github.com">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Library System</h3>
+                <p>Manage books and inventory.</p>
+                <a class="button" href="https://github.com">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+            
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+            
+            <label>Message</label>
+            <textarea rows="5" placeholder="Write your message"></textarea>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Harsh Dabas. All rights reserved.</p>
+        <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑ Back to Top</button>
+    </footer>
+
+</body>
+</html>
